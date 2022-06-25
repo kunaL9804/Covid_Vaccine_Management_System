@@ -17,7 +17,7 @@ int admin_login();// For the login of the admin
 void staff_login_page();//For the page of the login of the staff with all the features
 void staff_login();//For login of staff
 void staff_registration();//For registration of staff
-void staff_forgot_login();//For forgot login credentials feature for staff
+void staff_forgot_login();//For forgot login credentials feature for stafjf
 
 // Function for the Main Menu layout after the login of the staff
 void main_menu();
@@ -68,7 +68,7 @@ int main()
  {
     vaccine obj;
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t\t   Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t\t   Presented By:- kunal saini "<<endl<<endl;
     cout<<"\n\n\t\t\tPress any key to continue.............  ";
     getch();
 
@@ -159,7 +159,7 @@ int admin_login()
     cin >> captcha_input;
 
     // Validation of input credentials
-    if ( (strcmp(admin_username,"krish2003") == 0) && (strcmp(admin_password,"coproject") == 0) && (captcha_input == captcha) ){
+    if ( (strcmp(admin_username,"kunal2002") == 0) && (strcmp(admin_password,"kunal#@123") == 0) && (captcha_input == captcha) ){
         return 1;
     }
 
@@ -201,7 +201,7 @@ void staff_login_page(){
         }
         case 4:{
             system("cls");
-            cout<<"\n\n\n\n\t\t\t\tThanks for using this program :) \n\t\t\t\tThis program is created by krish saini and kunal saini.\n\n";
+            cout<<"\n\n\n\n\t\t\t\tThanks for using this program :) \n\t\t\t\tThis program is created by kunal saini.\n\n";
             break;
         }
         default:{
@@ -411,7 +411,7 @@ void main_menu()
 {
     system("cls");
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t Presented By:- kunal saini "<<endl<<endl;
     cout<<"\n\t\t\t *****************************************\n";
     cout<<"\t\t\t\t\t   MENU";
     cout<<"\n\t\t\t *****************************************\n";
@@ -497,7 +497,7 @@ void vaccine :: new_record()
 {
 
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:- kunal saini "<<endl<<endl;
     cout<<"\n\t\t\t *****************************************\n";
     cout<<"\t\t\t\t          DATA ENTRY";
     cout<<"\n\t\t\t *****************************************\n\n";
@@ -689,7 +689,7 @@ void vaccine :: view_vaccine(){
     number_of_vaccines_remianing = number_of_vaccine - number_of_records;
 
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:- kunal saini "<<endl<<endl;
     cout<<"\n\t\t\t *****************************************\n";
     cout<<"\t\t\t\t     VACCINE STATISTICS";
     cout<<"\n\t\t\t *****************************************\n\n";
@@ -770,12 +770,12 @@ int vaccine :: vaccine_in_stock()
 void vaccine :: search(){
 
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:-kunal saini "<<endl<<endl;
     cout<<"\n\t\t\t  *****************************************\n";
-    cout<<"\t\t\t\t     SEARCHING STATISTICS";
+    cout<<"\t\t\t\t     Searching Statitics";
     cout<<"\n\t\t\t  *****************************************\n\n";
     cout<<"\n\t\t 1. By Aadhar \t\t\t\t 2. By Age "<<endl;
-    cout<<"\n\t\t 3. By CoVid History   \t\t\t 4. By Gender "<<endl;
+    cout<<"\n\t\t 3. By Covid History   \t\t\t 4. By Gender "<<endl;
 
     cout<<"\n\n\t\tEnter your choice :   ";
     int search_choice;
@@ -853,7 +853,7 @@ void vaccine :: show_list()
 void vaccine::search_by_aadhar(){
 
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:- kunal saini "<<endl<<endl;
     cout<<"\n\t\t\t  *****************************************\n";
     cout<<"\t\t\t\t       AADHAR SEARCHING";
     cout<<"\n\t\t\t  *****************************************\n\n";
@@ -886,7 +886,7 @@ void vaccine::search_by_aadhar(){
 void vaccine :: search_by_age(){
 
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:- krish saini and kunal saini "<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:-kunal saini "<<endl<<endl;
     cout<<"\n\t\t\t  *****************************************\n";
     cout<<"\t\t\t\t         AGE SEARCHING";
     cout<<"\n\t\t\t  *****************************************\n\n";
@@ -922,7 +922,7 @@ void vaccine :: search_by_age(){
 void vaccine::search_by_covid_history()
 {
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:- krish saini and kunal saini"<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:- kunal saini"<<endl<<endl;
     cout<<"\n\t\t\t  *****************************************\n";
     cout<<"\t\t\t\t       CoVid  SEARCHING";
     cout<<"\n\t\t\t  *****************************************\n\n";
@@ -959,7 +959,7 @@ void vaccine::search_by_covid_history()
 void vaccine::search_by_gender()
 {
     cout<<"\n\n\t\t\t\xB3\xB2 \xB2 \xB2 \xB3 VACCINE MANAGEMENT SYSTEM  \xB3 \xB2 \xB2 \xB2\xB3\n\n"<<endl;
-    cout<<"\t\t\t\t\t\t   Presented By:-kunal saini and krish saini"<<endl<<endl;
+    cout<<"\t\t\t\t\t\t   Presented By:-kunal saini"<<endl<<endl;
     cout<<"\n\t\t\t  *****************************************\n";
     cout<<"\t\t\t\t       GENDER SEARCHING";
     cout<<"\n\t\t\t  *****************************************\n\n";
