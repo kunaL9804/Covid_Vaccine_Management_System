@@ -777,7 +777,7 @@ void vaccine :: search(){
     cout<<"\n\t\t 1. By Aadhar \t\t\t\t 2. By Age "<<endl;
     cout<<"\n\t\t 3. By Covid History   \t\t\t 4. By Gender "<<endl;
 
-    cout<<"\n\n\t\tEnter your choice :   ";
+    cout<<"\n\n\t\tEnter Your Choice :   ";
     int search_choice;
     cin>>search_choice;
 
